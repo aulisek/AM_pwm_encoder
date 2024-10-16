@@ -40,7 +40,10 @@ This project demonstrates how to control the color and brightness of a 4-legged 
      cd https://github.com/aulisek/AM_pwm_encoder/
      ```
 
-3. **Run the Program**:
+3. **Connected the wires and complete circuit
+	![Circuit photo](circuit_photo.jpg)
+	
+4. **Run the Program**:
    - Run the Python script:
      ```bash
      python3 second_assignment.py

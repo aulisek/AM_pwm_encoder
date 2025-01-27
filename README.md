@@ -1,6 +1,6 @@
 # Raspberry Pi RGB LED Controller with Rotary Encoder
 
-This project demonstrates how to control the color and brightness of a 4-legged RGB LED using a rotary encoder and a Raspberry Pi. The rotary encoder allows users to adjust the brightness of red, green, or blue color channels individually, and the built-in button lets users toggle between colors.
+This project demonstrates how to control the color and brightness of a 4-legged RGB LED using a rotary encoder and a Raspberry Pi. The rotary encoder allows users to adjust the brightness of red, green, or blue color channels individually, and the built-in button lets users toggle between colors. Tested on python version: 3.11.2.
 
 
 ## Components

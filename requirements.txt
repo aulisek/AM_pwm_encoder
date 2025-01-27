@@ -1,2 +1,1 @@
-python (at least python3), tested version: 3.11.2
-rpi-lgpio library (documentation: https://rpi-lgpio.readthedocs.io/en/latest/#)
+rpi-lgpio

@@ -67,3 +67,13 @@ This project demonstrates how to control the color and brightness of a 4-legged 
 When you change the brightness or color, the terminal will display something like this:
 Color changed to: red Current brightness for red: 25
 
+## Performance and Limitations
+
+The current approach works effectively for most use cases, providing smooth color and brightness transitions with high-resolution PWM control. However, there are some limitations:
+
+1. **Fast Rotation:**
+   - If the rotary encoder is turned too quickly, the program may occasionally misinterpret the direction of rotation. This is due to the limited debounce and processing time for GPIO events. Slower, consistent rotations provide more reliable adjustments.
+2. **Slow Rotation**:
+   - The program handles slow rotations well, but very slight or incomplete rotations might not trigger the expected changes if the encoder doesn’t complete a full detent cycle.
+
+

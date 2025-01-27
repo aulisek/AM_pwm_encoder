@@ -37,7 +37,7 @@ This project demonstrates how to control the color and brightness of a 4-legged 
    - Clone this repository to your Raspberry Pi:
      ```bash
      git clone https://github.com/aulisek/AM_pwm_encoder/
-     cd https://github.com/aulisek/AM_pwm_encoder/
+     cd AM_pwm_encoder
      ```
 
 3. **Connected the wires and complete circuit**:
